@@ -1,0 +1,18 @@
+- create a table
+CREATE TABLE geografia (
+  ano INT PRIMARY KEY,
+  evento VARCHAR(30) NOT NULL,
+  localidade CHAR(1) NOT NULL
+  descricao VARCHAR (255) NOOT NULL,
+);
+-- insert some values
+INSERT INTO geografia VALUES (2023,'baleia com deformacao rara na coluna e encontrada', 'Espanha', 'dificuldade de locomocaao',);
+INSERT INTO geografia VALUES (2023,'quarenta e tres mil pessoas mortas em Somalia', 'por seca', 'ano passado,');
+INSERT INTO geografia VALUES (2020,'bomardeio mata genetal irariano', 'Estados Unidos', 'aeroporto de Bagda');                                                                          ',);
+INSERT INTO geografia VALUES (2019, 'oleo nas praias', 'Nordeste', 'economias atingidas', 
+INSERT INTO geografia VALUES (2019, 'tragedia em brumadinho', 'Minas Gerais', '250 mortes'),
+INSERT INTO geografia VALUES (2019, 'massacre na escola', 'Suzano', '7 pessoas mortas'),
+-- fetch some values
+SELECT * FROM students WHERE gender = 'F';
+
+
